@@ -92,7 +92,7 @@ UtopiWriteに搭載されている機能群は本ドキュメントの可読性�
 |コード整形|Prettier
 <br>
 
-## 選定理由（REASON FOR SELECTION）
+## 選定理由（TECH STACK DECISTION）
 ### Electron
 <br>
 
