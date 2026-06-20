@@ -92,7 +92,7 @@ UtopiWriteに搭載されている機能群は本ドキュメントの可読性�
 |コード整形|Prettier
 <br>
 
-## 選定理由（TECH STACK DECISTION）
+## 選定理由（TECH STACK DECISION）
 ### Electron
 <br>
 
@@ -119,6 +119,7 @@ TypeScriptを選定しました。
 1. 世間一般で言われる型安全なコードを記述できる点
 1. AIがコードを出力しやすくなる点
 2. VSCode拡張機能であるError Lensがより厳格に機能してくれる点
+
 
 <br>
 
