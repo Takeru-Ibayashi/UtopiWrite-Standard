@@ -90,7 +90,17 @@ UtopiWriteに搭載されている機能群は本ドキュメントの可読性�
 
 ## 選定理由（REASON FOR SELECTION）
 ### Electron
-### React
+
+#### React
+今現在自分自身が扱える中での最低ラインがこの技術であったことと、
+Electron内でUIを描画する際にピュアなJavaScriptとHTMLだけでは
+非効率だと感じたため、UIライブラリであるReactを採用。
+
+ElectronはWEB技術をサポートしているため、Next.jsを使用することも
+可能ではあるものの、Electronとの相性問題や、セットアップの手間、
+そもそもDesktopアプリである以上SEOを気にしなくても全く問題がないため、
+今回のプロジェクトではNext.jsはオーバーエンジニアリングとし不採用。
+
 ### TypeScript
 ### React Router（Hash Router）
 ### Zustand
