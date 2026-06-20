@@ -107,5 +107,3 @@ UtopiWriteに搭載されている機能群は本ドキュメントの可読性�
 ## お問い合わせ（CONTACT）
 
 ### UtopiWrite Official Discord Server
-
-項目追加しました～
