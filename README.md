@@ -2,6 +2,7 @@
 
 UtopiWriteは、作者自身がライターの理想的な執筆環境を構築することを目的に
 開発されたオープンソースのデスクトップアプリケーションです。
+<br>
 
 ## 目次（TABLE OF CONTENTS）
 [1. 本アプリの対象者（TARGET AUDIENCE）](#本アプリの対象者target-audience)<br>
@@ -12,7 +13,7 @@ UtopiWriteは、作者自身がライターの理想的な執筆環境を構築�
 [選定理由（REASON FOR SELECTION）](#選定理由reason-for-selection)<br>
 [本プロジェクトへの参加方法](#本プロジェクトへの参加方法contributing)<br>
 [お問い合わせ（CONTACT）](#お問い合わせcontact)<br>
-
+<br>
 
 ## 本アプリの対象者（TARGET AUDIENCE）
 本アプリは、以下のような方にお勧めの執筆支援ツールとなっています。
@@ -24,10 +25,11 @@ UtopiWriteは、作者自身がライターの理想的な執筆環境を構築�
 - WEB小説を書く際の作品管理をスマートにまとめて管理したい方
 - ブログサービスのnoteに近い執筆体験ができるWYSIWYGエディタが欲しい方
 - QiitaやWikiへの投稿を自動化したい方
+<br>
 
 ## 対応プラットフォーム（SUPPORTED PLATFORMS）
 UtopiWriteは今現在、Windowsに対応しており、他プラットフォームは随時対応予定となっています。
-
+<br>
 
 ## 搭載機能（FEATURES）
 
@@ -68,9 +70,10 @@ UtopiWriteに搭載されている機能群は本ドキュメントの可読性�
 </details>
 
 ## インストール方法（INSTALLATION）
+<br>
 
 ## ライセンス（LICENSE）
-
+<br>
 
 ## 技術スタック（TECH STACK）
 |役割|技術名|
@@ -87,9 +90,11 @@ UtopiWriteに搭載されている機能群は本ドキュメントの可読性�
 |ビルドツール|Vite
 |コミットバリデーション|Husky + Commitlint
 |コード整形|Prettier
+<br>
 
 ## 選定理由（REASON FOR SELECTION）
 ### Electron
+<br>
 
 #### React
 Electron内でUIを描画する際にピュアなJavaScriptとHTMLだけでは
@@ -99,23 +104,40 @@ Electron内でUIを描画する際にピュアなJavaScriptとHTMLだけでは
 **Next.jsの採用について**<br>
 ElectronはWEB技術をサポートしているため、Next.jsの導入も検討しましたが、
 以下の理由から、今回はオーバーエンジニアリングだと判断し選択肢から除外しました。
-
+<br>
 1. Electronとの相性問題や、環境構築に時間がかかる点
 2. UtopiWriteはデスクトップアプリであるため、SEOを全く考慮しなくて問題ない点
-
+<br>
 
 ### TypeScript
+<br>
+
 ### React Router（Hash Router）
+<br>
+
 ### Zustand
+<br>
+
 ### React Icons
+<br>
+
 ### Tiptap
+<br>
+
 ### Sass CSS Modules
+<br>
+
 ### Vite
+<br>
+
 ### Husky & Commitlint
+<br>
+
 ### Prettier
+<br>
 
 ## 本プロジェクトへの参加方法（CONTRIBUTING）
-
+<br>
 
 ## お問い合わせ（CONTACT）
 
