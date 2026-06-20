@@ -105,11 +105,21 @@ Electron内でUIを描画する際にピュアなJavaScriptとHTMLだけでは
 ElectronはWEB技術をサポートしているため、Next.jsの導入も検討しましたが、
 以下の理由から、今回はオーバーエンジニアリングだと判断し選択肢から除外しました。
 <br>
+
 1. Electronとの相性問題や、環境構築に時間がかかる点
 2. UtopiWriteはデスクトップアプリであるため、SEOを全く考慮しなくて問題ない点
+
 <br>
 
 ### TypeScript
+以下の理由から、ピュアなJavaScriptではなくJSのスーパーセットである
+TypeScriptを選定しました。
+<br>
+
+1. 世間一般で言われる型安全なコードを記述できる点
+1. AIがコードを出力しやすくなる点
+2. VSCode拡張機能であるError Lensがより厳格に機能してくれる点
+
 <br>
 
 ### React Router（Hash Router）
