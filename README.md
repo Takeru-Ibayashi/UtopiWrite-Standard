@@ -88,7 +88,7 @@ UtopiWriteに搭載されている機能群は本ドキュメントの可読性�
 |マークアップ|HTML
 |スタイリング|Sass CSS Modules
 |ビルドツール|Vite
-|コミットバリデーション|Husky + Commitlint
+|コミットバリデーション|Husky & Commitlint
 |コード整形|Prettier
 <br>
 
