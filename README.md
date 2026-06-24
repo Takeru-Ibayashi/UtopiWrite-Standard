@@ -172,6 +172,13 @@ VSCodeの拡張機能である「Error Lens」などと組み合わせること�
 <br>
 
 ### React Router（Hash Router）
+Reactでページ遷移のルーティングを行う際のデファクトスタンダードであり、
+使用する形式をHash Routerにしている理由は、Electronのルーティング形式が
+BrowserRouterのURL遷移とは異なり、ファイルパスを起点とした`file://`を
+用いて行われるため、読み込みに失敗時の`404 Error`防ぐために使用しています。
+またエディタの規模が大きくなればなるほど、複数のルーティングファイルに分割
+して管理をすることから、RouteObjectの使用や、ページ遷移には`<NavLink>`を
+採用しています。
 <br>
 
 ### Zustand
