@@ -175,6 +175,13 @@ VSCodeの拡張機能である「Error Lens」などと組み合わせること�
 <br>
 
 ### Zustand
+以下の理由からReact環境下での状態管理はZustandを採用しています。
+
+1. Reduxほどの大規模で複雑な状態管理を必要としないこと
+2. Context APIの意図しない再レンダリングが生じること
+3. 通常のステート管理ではコードがスパゲッティ化する確率が高いこと
+
+上記の三つの観点からReduxやContext APIではなくZustandを選定しました。
 <br>
 
 ### React Icons
