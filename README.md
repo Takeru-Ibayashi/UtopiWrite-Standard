@@ -13,7 +13,7 @@ UtopiWriteは、作者自身がライターの理想的な執筆環境を構築�
 [搭載機能（FEATURES）](#搭載機能features)<br>
 [ライセンス（LICENSE）](#ライセンスlicense)<br>
 [技術スタック（TECH STACK）](#技術スタックtech-stack)<br>
-[選定理由（REASON FOR SELECTION）](#選定理由reason-for-selection)<br>
+[選定理由（REASON FOR SELECTION）](#選定理由tech-stack-decision)<br>
 [本プロジェクトへの参加方法](#本プロジェクトへの参加方法contributing)<br>
 [お問い合わせ（CONTACT）](#お問い合わせcontact)<br>
 <br>
