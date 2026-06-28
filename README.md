@@ -30,7 +30,7 @@ UtopiWriteは、作者自身がライターの理想的な執筆環境を構築�
 - QiitaやWikiへの投稿を自動化したい方
 <br>
 
-## 対応プラットフォーム（SUPPORTED PLATFORMS）
+## 対応プラットフォーム（SUPPORTED PLATFORM）
 UtopiWriteは今現在、Windowsに対応しており、他プラットフォームは随時対応予定となっています。
 <br>
 
