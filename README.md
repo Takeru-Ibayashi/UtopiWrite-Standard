@@ -34,7 +34,7 @@ UtopiWriteは、作者自身がライターの理想的な執筆環境を構築�
 UtopiWriteは今現在、Windowsに対応しており、他プラットフォームは随時対応予定となっています。
 <br>
 
-## 開発二原則（Development Principles）
+## 開発二原則（Development Principle）
 UtopiWriteは以下の原則にのっとって開発されています。
 
 ### 1. Accesible UI/UX
