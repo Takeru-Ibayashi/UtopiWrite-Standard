@@ -9,7 +9,7 @@ UtopiWriteは、作者自身がライターの理想的な執筆環境を構築�
 
 ## 目次（TABLE OF CONTENTS）
 [1. 本アプリの対象者（TARGET AUDIENCE）](#本アプリの対象者target-audience)<br>
-[対応プラットフォーム](#対応プラットフォームsupported-platforms)
+[対応プラットフォーム](#対応プラットフォームsupported-platform)<br>
 [開発二原則](#開発二原則development-principle)<br>
 [搭載機能（FEATURES）](#搭載機能features)<br>
 [ライセンス（LICENSE）](#ライセンスlicense)<br>
