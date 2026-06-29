@@ -13,27 +13,27 @@ srcディレクトリの内部は基本的に`Feature-Based-Architecture`を基�
 
 ```tree
 src/
-    assets/
-    data/
-        icon/
-            FeatureName.icon.ts
-    features/
-        feature-name/
-            hooks/
-            ui/
-                FeatureName.tsx
-                FeatureName.module.scss
-    pages/
-        page-name/
-            page-name.tsx
-            page-name.module.scss # 任意で追加（Add optionally）
-    hooks/ # 汎用hooks
-    routes/ # ルーティングファイル
-    store/ # 状態管理
-    styles/ # スタイル
-        mixin/
-        variables.scss
-    types/
+├── assets/
+├── data/
+│   └── icon/
+│       └── FeatureName.icon.ts
+├── features/
+│   └── feature-name/
+│       ├── hooks/
+│       └── ui/
+│           ├── FeatureName.tsx
+│           └── FeatureName.module.scss
+├── pages/
+│   └── page-name/
+│       ├── page-name.tsx
+│       └── page-name.module.scss  # 任意で追加（Add optionally）
+├── hooks/
+├── routes/
+├── store/
+├── styles/
+│   ├── mixin/
+│   └── variables.scss
+└── types/
 ```
 
 ## Sass
