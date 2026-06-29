@@ -46,8 +46,8 @@ src/
 
 
 ## React
-1. features/feature-name/ui/はアッパーキャメルケースでファイル名を記述すること
-2. features/pages/page-name/は小文字のケバブケースでファイル名を記述すること
+1. src/features/feature-name/ui/はアッパーキャメルケースでファイル名を記述すること
+2. src/pages/page-name/は小文字のケバブケースでファイル名を記述すること
 
 ## ソースコードについて
 Next.jsのように機能コンポーネントを構築する際にはアロー関数を用いた方法で記述してください。
