@@ -1,10 +1,16 @@
 // Commitlint
 
-const typesWithScope = ["feat", "util", "docs", "test", "config"];
-const allowedScopes = ["add", "delete", "edit"];
+const typesWithScopes = {
+  first: ["feat", "util", "docs", "test", "config"],
+  second: ["add", "delete"],
+};
+
+const allowedScopes = {
+  first: ["add", "delete", "edit"],
+  second: ["dir", "file"],
+};
+
 const additionalTypes = [
-  "add",
-  "delete",
   "temp",
   "inst",
   "uninst",
@@ -21,7 +27,14 @@ const additionalTypes = [
   "upgrade",
   "chore",
 ];
-const allTypes = [...typesWithScope, ...additionalTypes];
+
+const allTypes = Array.from(
+  new Set([
+    ...typesWithScopes.first,
+    ...typesWithScopes.second,
+    ...additionalTypes,
+  ]),
+);
 
 module.exports = {
   extends: ["@commitlint/config-conventional"],
@@ -35,19 +48,27 @@ module.exports = {
             return [true];
           }
 
-          const isScopeRequired = typesWithScope.includes(type);
+          let matchedGroup = null;
+          for (const group of Object.keys(typesWithScopes)) {
+            if (typesWithScopes[group].includes(type)) {
+              matchedGroup = group;
+              break;
+            }
+          }
 
-          if (isScopeRequired) {
+          if (matchedGroup) {
+            const currentAllowedScopes = allowedScopes[matchedGroup] || [];
+
             if (!scope) {
               return [
                 false,
-                `Type "${type}" requires a scope. Allowed: ${allowedScopes.join(", ")}`,
+                `Type "${type}" requires a scope. Allowed scopes for this type: ${currentAllowedScopes.join(", ")}`,
               ];
             }
-            if (!allowedScopes.includes(scope)) {
+            if (!currentAllowedScopes.includes(scope)) {
               return [
                 false,
-                `Scope "${scope}" is not allowed for type "${type}". Allowed: ${allowedScopes.join(", ")}`,
+                `Scope "${scope}" is not allowed for type "${type}". Allowed: ${currentAllowedScopes.join(", ")}`,
               ];
             }
           } else {
