@@ -3,6 +3,8 @@
 const typesWithScope = ["feat", "util", "docs", "test", "config"];
 const allowedScopes = ["add", "delete", "edit"];
 const additionalTypes = [
+  "add",
+  "delete",
   "temp",
   "inst",
   "uninst",
