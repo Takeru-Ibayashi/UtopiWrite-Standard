@@ -288,8 +288,30 @@ Prettierは数あるツールの中でも極めて優秀であり、設定ファ
 <br>
 
 ## 本プロジェクトへの参加方法（CONTRIBUTING）
+UtopiWriteでは以下の区分にご参加いただける方を募集しています。
+
+### ドキュメント整備（DOCUMENT MAINTENANCE）
+READMEやその他開発ドキュメントなどの誤字脱字、リーダビリティの向上に
+ご協力いただける方は下記のリンクから`CONTRIBUTING.md`のドキュメント整備の
+セクションにアクセスしてください。
+
+[ドキュメント整備（DOCUMENT MAINTENANCE）](./.github/CONTRIBUTING.md/#ドキュメント整備document-maintenance)
+
+### 製品開発（PRODUCT DEVELOPMENT）
+UtopiWriteの製品開発にご協力いただける方は下記のリンクから`CONTRIBUTING.md`の
+製品開発セクションにアクセスしてください。
+
+[製品開発（PRODUCT DEVELOPMENT）](./.github/CONTRIBUTING.md/#製品開発product-development)
+
+
+### コミュニティ形成（COMMUNITY BUILDING）
+SNSでの宣伝・発信、Discordの公式サーバー及びGitHubのコミュニティ形成にご協力いただける方は、
+下記のリンクから`CONTRIBUTING.md`のコミュニティ形成セクションにアクセスしてください。
+
+[コミュニティ形成（COMMUNITY BUILDING）](./.github/CONTRIBUTING.md/#コミュニティ形成community-building)
 <br>
 
 ## お問い合わせ（CONTACT）
 
 ### UtopiWrite Official Discord Server
+　
