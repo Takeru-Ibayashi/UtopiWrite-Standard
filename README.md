@@ -96,6 +96,10 @@ UtopiWriteに搭載されている機能群は本ドキュメントの可読性�
 <br>
 
 ## ライセンス（LICENSE）
+UtopiWriteでは、Apache License 2.0を使用しています。詳細は下記の
+`LICENSE`をご参照ください。
+
+[LICENSE](./LICENSE)
 <br>
 
 ## 技術スタック（TECH STACK）
