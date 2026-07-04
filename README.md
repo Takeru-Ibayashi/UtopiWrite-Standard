@@ -55,40 +55,14 @@ UtopiWriteでは開発者が最もパフォーマンスを発揮できるよう�
 
 
 ## 搭載機能（FEATURES）
-
-UtopiWriteに搭載されている機能群は本ドキュメントの可読性維持の観点から、
-下記のリンク先にあるFEATURES.mdに記載しています。
-
-[搭載機能一覧のトップページ（Top Page）](./docs/FEATURES.md)
-
-### 搭載機能の目次（FEATURES TOC）
-特定の機能の見出しへジャンプしたい方は下記のトグル内にある
-搭載機能の目次のリンクからアクセスいただけます。
+UtopiWriteの搭載機能の一覧は、以下のバージョンリストの
+項目を選択していただくことでアクセスできます。
 
 <details>
-  <summary>搭載機能の目次（FEATURES TOC）</summary>
+  <summary>バージョンリスト</summary>
 
-  [キャラクターエイリアス（Chara Alias）](./docs/FEATURES.md/#キャラクターエイリアスchara-alias)
+[vA0.1]()
 
-[データベース（Database）](./docs/FEATURES.md/#データベースdatabase)
-
-[ハイパーリンク（Hyperlink）](./docs/FEATURES.md/#ハイパーリンクhyperlink)
-
-[ルビ付き（Add Ruby）](./docs/FEATURES.md/#ルビ付きadd-ruby)
-
-[コマンドパレット（Command Palette）](./docs/FEATURES.md/#コマンドパレットcommand-palette)
-
-[文字数カウント（Character Count）](./docs/FEATURES.md/#文字数カウントcharacter-count)
-
-[フォーカスパレット（Focus Palette）](./docs/FEATURES.md/#フォーカスパレットfocus-palette)
-
-[キーボードショートカット（Keyboard Shortcut）](./docs/FEATURES.md/#キーボードショートカットkeyboard-shortcut)
-
-[オートセーブ（Auto Save）](./docs/FEATURES.md/#オートセーブauto-save)
-
-[設定パネル（Config Panel）](./docs/FEATURES.md/#設定パネルconfig-panel)
-
-[横書きエディタ（Horizontal Text Editor）](./docs/FEATURES.md/#横書きエディタhorizontal-text-editor)
 
 </details>
 
