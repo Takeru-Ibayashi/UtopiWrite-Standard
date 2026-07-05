@@ -35,11 +35,11 @@ UtopiWriteは、作者自身がライターの理想的な執筆環境を構築�
 UtopiWriteは今現在、Windowsに対応しており、他プラットフォームは随時対応予定となっています。
 <br>
 
-## 開発二原則（Development Principle）
+## 開発二原則（DEVELOPMENT PRINCIPLE）
 UtopiWriteは以下の原則にのっとって開発されています。
 
-### 1. Accesible UI/UX
-UtopiWriteでは、アクセシビリティを重視したUI/UXを追及しています。
+### 1. Accessible UI/UX
+UtopiWriteでは、アクセシビリティを重視したUI/UXを追求しています。
 具体的にはその場にあった必要最低限の情報を表示したり、ボタンや
 アイコンクリックなどでの直感的な操作に留まらず、ショートカットを
 用いたより効率的な操作体験を初期段階から実装しています。
@@ -55,47 +55,33 @@ UtopiWriteでは開発者が最もパフォーマンスを発揮できるよう�
 
 
 ## 搭載機能（FEATURES）
-
-UtopiWriteに搭載されている機能群は本ドキュメントの可読性維持の観点から、
-下記のリンク先にあるFEATURES.mdに記載しています。
-
-[搭載機能一覧のトップページ（Top Page）](./docs/FEATURES.md)
-
-### 搭載機能の目次（FEATURES TOC）
-特定の機能の見出しへジャンプしたい方は下記のトグル内にある
-搭載機能の目次のリンクからアクセスいただけます。
+UtopiWriteの搭載機能の一覧は、以下のバージョンリストの
+項目を選択していただくことでアクセスできます。
 
 <details>
-  <summary>搭載機能の目次（FEATURES TOC）</summary>
+  <summary>バージョンリスト</summary>
 
-  [キャラクターエイリアス（Chara Alias）](./docs/FEATURES.md/#キャラクターエイリアスchara-alias)
+[vA0.1]()
 
-[データベース（Database）](./docs/FEATURES.md/#データベースdatabase)
-
-[ハイパーリンク（Hyperlink）](./docs/FEATURES.md/#ハイパーリンクhyperlink)
-
-[ルビ付き（Add Ruby）](./docs/FEATURES.md/#ルビ付きadd-ruby)
-
-[コマンドパレット（Command Palette）](./docs/FEATURES.md/#コマンドパレットcommand-palette)
-
-[文字数カウント（Character Count）](./docs/FEATURES.md/#文字数カウントcharacter-count)
-
-[フォーカスパレット（Focus Palette）](./docs/FEATURES.md/#フォーカスパレットfocus-palette)
-
-[キーボードショートカット（Keyboard Shortcut）](./docs/FEATURES.md/#キーボードショートカットkeyboard-shortcut)
-
-[オートセーブ（Auto Save）](./docs/FEATURES.md/#オートセーブauto-save)
-
-[設定パネル（Config Panel）](./docs/FEATURES.md/#設定パネルconfig-panel)
-
-[横書きエディタ（Horizontal Text Editor）](./docs/FEATURES.md/#横書きエディタhorizontal-text-editor)
 
 </details>
 
 ## インストール方法（INSTALLATION）
+現時点でのリリースは開発版のvA0.1のみとなっています。こちらは
+開発の初速と本アプリの目指すアプリ形態を雰囲気として掴んでいただく
+ためにUIモックとウィンドウを切り替えられるショートカット機能、
+エディタのテーマ変更のみが実装されています。それをあらかじめご了承
+頂いたうえで下記のリンク先にあるインストール方法へお進みください。
+
+[UtopiWriteのインストール方法]()
+
 <br>
 
 ## ライセンス（LICENSE）
+UtopiWriteでは、Apache License 2.0を使用しています。詳細は下記の
+`LICENSE`をご参照ください。
+
+[LICENSE](./LICENSE)
 <br>
 
 ## 技術スタック（TECH STACK）
@@ -284,8 +270,30 @@ Prettierは数あるツールの中でも極めて優秀であり、設定ファ
 <br>
 
 ## 本プロジェクトへの参加方法（CONTRIBUTING）
+UtopiWriteでは以下の区分にご参加いただける方を募集しています。
+
+### ドキュメント整備（DOCUMENT MAINTENANCE）
+READMEやその他開発ドキュメントなどの誤字脱字、リーダビリティの向上に
+ご協力いただける方は下記のリンクから`CONTRIBUTING.md`のドキュメント整備の
+セクションにアクセスしてください。
+
+[ドキュメント整備（DOCUMENT MAINTENANCE）](./.github/CONTRIBUTING.md/#ドキュメント整備document-maintenance)
+
+### 製品開発（PRODUCT DEVELOPMENT）
+UtopiWriteの製品開発にご協力いただける方は下記のリンクから`CONTRIBUTING.md`の
+製品開発セクションにアクセスしてください。
+
+[製品開発（PRODUCT DEVELOPMENT）](./.github/CONTRIBUTING.md/#製品開発product-development)
+
+
+### コミュニティ形成（COMMUNITY BUILDING）
+SNSでの宣伝・発信、Discordの公式サーバー及びGitHubのコミュニティ形成にご協力いただける方は、
+下記のリンクから`CONTRIBUTING.md`のコミュニティ形成セクションにアクセスしてください。
+
+[コミュニティ形成（COMMUNITY BUILDING）](./.github/CONTRIBUTING.md/#コミュニティ形成community-building)
 <br>
 
 ## お問い合わせ（CONTACT）
 
 ### UtopiWrite Official Discord Server
+　
