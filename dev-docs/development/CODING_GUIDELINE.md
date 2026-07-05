@@ -11,28 +11,34 @@
 
 srcディレクトリの内部は基本的に`Feature-Based-Architecture`を基盤として構築します。
 
-```tree
+```text
 src/
 ├── assets/
-├── data/
-│   └── icon/
-│       └── FeatureName.icon.ts
 ├── features/
 │   └── feature-name/
 │       ├── hooks/
 │       └── ui/
-│           ├── FeatureName.tsx
-│           └── FeatureName.module.scss
+│          ├── FeatureName.tsx
+│          ├── FeatureName.icon.tsx
+│          ├── FeatureName.module.scss
+│          └── FeatureName.test.tsx
+│       
+├── hooks/
 ├── pages/
 │   └── page-name/
 │       ├── page-name.tsx
-│       └── page-name.module.scss  # 任意で追加（Add optionally）
-├── hooks/
+│       └── page-name.module.scss
 ├── routes/
+├── shared/
+│   └── component-name/
+│       ├── Component.tsx
+│       └── Component.module.scss
 ├── store/
 ├── styles/
 │   ├── mixin/
-│   └── variables.scss
+│   ├── variables.scss
+│   └── index.scss
+├── test/
 └── types/
 ```
 
