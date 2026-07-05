@@ -38,8 +38,8 @@ UtopiWriteは今現在、Windowsに対応しており、他プラットフォー
 ## 開発二原則（DEVELOPMENT PRINCIPLE）
 UtopiWriteは以下の原則にのっとって開発されています。
 
-### 1. Accesible UI/UX
-UtopiWriteでは、アクセシビリティを重視したUI/UXを追及しています。
+### 1. Accessible UI/UX
+UtopiWriteでは、アクセシビリティを重視したUI/UXを追求しています。
 具体的にはその場にあった必要最低限の情報を表示したり、ボタンや
 アイコンクリックなどでの直感的な操作に留まらず、ショートカットを
 用いたより効率的な操作体験を初期段階から実装しています。
