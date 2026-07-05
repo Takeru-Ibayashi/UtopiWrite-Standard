@@ -1,0 +1,22 @@
+# 本プロジェクトへの参加方法（CONTRIBUTION GUIDELINE）
+
+
+## ドキュメント整備（DOCUMENT MAINTENANCE）
+
+## 製品開発（PRODUCT DEVELOPMENT）
+
+### 目次
+**1. DEVELOP CONVENTIONS**
+[開発ポリシー（DEVELOPMENT POLICY）]()
+[環境構築（PROJECT SETUP）]()
+[コーディング規約（CODING GUIDELINE）]()
+[全体的なワークフロー（OVERALL WORKFLOW）]()
+
+
+**2. GIT CONVENTIONS**
+[コミット規約（COMMIT GUIDELINE）]()
+[プルリクエスト規約（PULL REQUEST GUIDELINE）]()
+[課題報告規約（ISSUE GUIDELINE）]()
+
+
+## コミュニティ形成（COMMUNITY BUILDING）
